@@ -22,10 +22,10 @@ public class ContactsDB extends SQLiteOpenHelper {
 	
 	private static final String TABLE_CREATE = 
 			"CREATE TABLE " + TABLE_CONTACTS + " (" +
-			COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-			COLUMN_NAME + " TEXT, " +
-			COLUMN_NUMBER + " TEXT " +
-			")";
+			COLUMN_ID + " INTEGER, " +
+			COLUMN_NAME + " TEXT ," +
+			COLUMN_NUMBER + " TEXT ," +
+			"PRIMARY KEY( " + COLUMN_ID +","+COLUMN_NUMBER +"))";
 	private static final String LIST1_TABLE_CREATE = 
 			"CREATE TABLE " + LIST1_TABLE + " (" +
 			COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
