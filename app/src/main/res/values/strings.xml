@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Answering Machine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Update Contacts</string>
+    <string name="service">Enable VoiceMail Service</string>
+    <string name="delay">Delay before Automatic Reject(in sec.)</string>
+    <string name="greeting">Greeting Options</string>
+    <string name="message">Enter Greeting Message</string>
+    <string name="play">Listen to message</string>
+    <string name="type">Type of Greeting</string>
+    <string name="voice">Voice</string>
+    <string name="text">Text to Speech</string>
+    <string name="record">Record Voice</string>
+    <string-array name="options">
+        <item >Text To Speech</item>
+        <item >Voice</item>
+    </string-array>
+
+</resources>

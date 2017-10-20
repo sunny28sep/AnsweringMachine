@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+	<LinearLayout 
+	    android:id="@+id/linearLayout1"
+		android:layout_width="match_parent" 
+		android:layout_weight="0"
+		android:layout_height="wrap_content">
+
+		<Button
+		    android:id="@+id/cont"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+		    android:text="Contacts" >
+		    
+		</Button>
+
+		<Button
+		    android:id="@+id/list1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+		    android:text="List 1" >
+		    
+		</Button>
+
+		<Button
+		    android:id="@+id/list2"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+		    android:text="List 2" >
+		    
+		</Button>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/messa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="For this List" >
+
+		<requestFocus />
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/savedata"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>
+<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/clear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear List 2" />
+
+</LinearLayout>
+	
+	<ListView
+	    android:id="@+id/listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	</ListView>
+
+</LinearLayout>

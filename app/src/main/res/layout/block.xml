@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+	<LinearLayout 
+	    android:id="@+id/linearLayout1"
+		android:layout_width="match_parent" 
+		android:layout_weight="0"
+		android:layout_height="wrap_content">
+
+		<Button
+		    android:id="@+id/BTAll"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+		    android:text="Contacts" >
+		    
+		</Button>
+
+		<Button
+		    android:id="@+id/BlockList"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+		    android:text="Block List" >
+		    
+		</Button>
+	</LinearLayout>
+<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Block-List" />
+
+</LinearLayout>
+	
+	<ListView
+	    android:id="@+id/LView"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	</ListView>
+
+</LinearLayout>
